@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: lavenderblush;
+}
+
+.route {
+  background-color: mediumpurple;
+  text-align: center;
+}
+
+.nav {
+  list-style-type: none;
+  width: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sidebar {
+  background-color: fuchsia;
+}
