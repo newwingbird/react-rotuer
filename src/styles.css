@@ -19,3 +19,43 @@
 .sidebar {
   background-color: fuchsia;
 }
+
+.navbar {
+  background-color: green;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: aliceblue;
+  widows: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0rem;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8 0 8 16;
+  list-style: none;
+  height: 60px;
+}
